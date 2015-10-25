@@ -55,7 +55,6 @@
 }
 
 html {
-    /*background: #000000;*/
     color: #949494;
     font-family: 'SourceSansPro', sans-serif;
     font-size: 21px;
@@ -74,16 +73,25 @@ body {
 
 /*Для страницы Home*/
 
-body {
+/*body {
 	background-image: url(./img/home_bg.jpg);
+	background-size: 100%;
+	background-repeat: no-repeat;
+	background-position: top;
+}*/
+
+/*будет вот такой вот фон*/
+
+/*Для страницы About Company*/
+
+body {
+	background-image: url(./img/about_company.jpg);
 	background-size: 100%;
 	background-repeat: no-repeat;
 	background-position: top;
 }
 
 /*будет вот такой вот фон*/
-
-
 
 
 
@@ -320,20 +328,17 @@ a {
 }
 
 
-/* ----- О компании ------ */
+/* ----- Home ------ */
 
-.about-company {
+.home {
 	font-size: 0;
 	line-height: 0;
-	/*background-color: #000000;*/
 	margin: 85px 0 0 0;
 	padding: 0 0 70px 0;
 }
 
 
-
-
-.about-company-article {
+.home-article {
 	display: inline-block;
 	vertical-align: top;
 	width: 33%;
@@ -341,7 +346,7 @@ a {
 	padding: 0 20px 0 0;
 }
 
-.about-company-head {
+.home-head {
 	font-family: 'SourceSansPro-Black', sans-serif;
 	font-size: 24px;
 	line-height: 32px;
@@ -349,19 +354,14 @@ a {
 	margin: 0 0 2.5% 0;
 }
 
-.about-company-text {
+.home-text {
 	font-family: 'SourceSansPro', sans-serif;
 	font-size: 14px;
 	line-height: 18px;
 	color: #949494;
-	/*padding: 20px 0 0 0;*/
 	margin: 4% 0;
 }
 
-/*.about-company-text :last-child {
-	margin: 0;
-}
-*/
 .read-more {
 	margin: 0px 0 23px 0;
 }
@@ -469,7 +469,6 @@ a {
 
 
 .services-menu-section {
-	/*background: #ffffff;*/
 	display: inline-block;
 	vertical-align: top;
 	width: 67%;
@@ -595,13 +594,6 @@ a {
 }
 
 
-
-
-
-
-
-
-
 .service-name {
 	display: inline-block;
 	vertical-align: middle;
@@ -646,13 +638,88 @@ a {
 
 
 
+/* ----- About Company ------ */
+
+.about-company {
+	font-size: 0;
+	line-height: 0;
+	padding: 125px 0 90px 0;
+}
+
+.about-company-description {
+	display: inline-block;
+	vertical-align: top;
+	width: 68%;
+}
+
+.about-company-text {
+	font-family: 'SourceSansPro', sans-serif;
+	font-size: 14px;
+	line-height: 18px;
+	color: #949494;
+	padding: 2% 0;
+}
+
+.director {
+	text-align: center;
+	padding: 25px 0 0 0;
+}
+
+.autograph {
+	display: inline-block;
+	vertical-align: middle;
+	width: 50%;
+	text-align: right;
+
+/*	background-image: url(./img/director.png);
+	background-size: 100%;
+	background-repeat: no-repeat;
+	background-position: center;*/
+	
+}
+
+.autograph-image {
+	display: inline-block;
+	vertical-align: top;
+	width: 85px;
+	height: auto;
+}
+
+.director-name-box {
+	display: inline-block;
+	vertical-align: middle;
+	width: 50%;
+	text-align: left;
+	padding: 10px 0 0 10px;
+}
+
+.director-name {
+	font-family: 'SourceSansPro', sans-serif;
+	font-size: 14px;
+	line-height: 18px;
+	color: #ffffff;
+}
+
+.director-position {
+	font-family: 'SourceSansPro', sans-serif;
+	font-size: 10px;
+	line-height: 18px;
+	color: #949494;
+}
+
+.commercial-offer-about-company {
+	display: inline-block;
+	vertical-align: top;
+	width: 32%;
+	padding: 2% 0 0 0;
+}
+
+
+
+
 /*-------------------------------------------*/
 /* ----- FOOTER ------ */
 /*-------------------------------------------*/
-
-footer {
-
-}
 
 .footer-bg {
 	width: 100%;
