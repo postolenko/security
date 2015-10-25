@@ -489,8 +489,8 @@ a {
 	display: inline-block;
 	vertical-align: middle;
 	width: 48%;
-	padding-top: 18px;
-	padding-bottom: 18px;
+	padding-top: 14px;
+	padding-bottom: 14px;
 	background: #fce109;
 
 	-webkit-transition-property: background;
@@ -543,13 +543,64 @@ a {
 .services-menu-icon {
 	display: block;
 	width: 40px;
-	height: 32px;
+	height: 40px;
 	margin: 0 auto;
 	background-image: url(./img/sprite_services_link.png);
 	background-size: 100%;
 	background-repeat: no-repeat;
-	background-position: center -25px;
 }
+
+.menu-service:link .services-menu-icon,
+.menu-service:visited .services-menu-icon {
+	background-image: url(./img/sprite_services_link.png);
+}
+
+.menu-service:hover .services-menu-icon,
+.menu-service:active .services-menu-icon {
+	background-image: url(./img/sprite_services_link_hover.png);
+}
+
+
+
+.sequrity-object {
+	background-position: center 1px;
+}
+
+.protection-individuals {
+	background-position: center -78px;
+}
+
+.installation-video-surveillance-systems {
+	background-position: center -162px;
+}
+
+.video-surveillance-systems {
+	background-position: center -240px;
+}
+
+.fire-alarm {
+	background-position: center -313px;
+}
+
+.support-cargoes {
+	background-position: center -390px;
+}
+
+.button-disturbing-alarm-system {
+	background-position: center -469px;
+}
+
+.pultowa-protection {
+	background-position: center -541px;
+}
+
+
+
+
+
+
+
+
 
 .service-name {
 	display: inline-block;
@@ -557,10 +608,10 @@ a {
 	width: 85%;
 	font-family: 'SourceSansPro', sans-serif;
 	color: #000000;
-	font-size: 14px;
+	font-size: 13px;
 	line-height: 16px;
 	font-weight: normal;
-	padding: 0 10px;
+	padding: 0 10px 0 15px;
 
 	-webkit-transition-property: color;
     -webkit-transition-duration: 0.3s;
@@ -592,6 +643,7 @@ a {
 .menu-service:active .service-name {
 	color: #ffffff;
 }
+
 
 
 /*-------------------------------------------*/
