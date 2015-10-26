@@ -717,6 +717,278 @@ a {
 
 
 
+/* ----- Services ------ */
+
+.services {
+	font-size: 0;
+	line-height: 0;
+	padding: 155px 0 70px 0;
+}
+
+.type-service {
+	display: inline-block;
+	vertical-align: top;
+	/*width: 68%;*/
+	width: 69%;
+	padding: 0 20px 0 0;
+	text-align: center;
+}
+
+.type-service-head {
+	color: #ffffff;
+	font-family: 'SourceSansPro-Black', sans-serif;
+	font-size: 43px;
+	line-height: 47px;
+	text-transform: uppercase;
+	padding: 0 0 30px 0;
+}
+
+.type-service-description {
+	color: #000000;
+	font-size: 24px;
+	line-height: 30px;
+	padding: 0 50px 50px 50px;
+}
+
+.type-service-photo {
+	display: inline-block;
+	vertical-align: top;
+	width: 100%;
+	height: 300px;
+	margin: 0 0 15px 0;
+	background-image: url(./img/alarm_service_photo.jpg);
+	background-size: 100%;
+	background-repeat: no-repeat;
+	background-position: center;
+}
+
+.type-service-desription {
+	font-family: 'SourceSansPro', sans-serif;
+	font-size: 14px;
+	line-height: 18px;
+	color: #949494;
+	padding: 2% 0;
+	text-align: left;
+}
+
+.services-menu-services-page {
+	display: inline-block;
+	vertical-align: top;
+	/*width: 32%;*/
+	width: 31%;
+}
+
+.menu-service-services-page {
+	display: inline-block;
+	vertical-align: top;
+	width: 100%;
+	margin: 10px 0;
+	padding-top: 14px;
+	padding-bottom: 14px;
+	background: #fce109;
+
+	-webkit-transition-property: background;
+    -webkit-transition-duration: 0.3s;
+    -webkit-transition-timing-function: ease;
+
+    -moz-transition-property: background;
+    -moz-transition-duration: 0.3s;
+    -moz-transition-timing-function: ease;
+
+    -ms-transition-property: background;
+    -ms-transition-duration: 0.3s;
+    -ms-transition-timing-function: ease;
+
+    -o-transition-property: background;
+    -o-transition-duration: 0.3s;
+    -o-transition-timing-function: ease;
+
+    transition-property: background;
+    transition-duration: 0.3s;
+    transition-timing-function: ease;
+
+}
+
+.menu-service-services-page:link,
+.menu-service-services-page:visited {
+	background: #fce109;
+}
+
+.menu-service-services-page:hover,
+.menu-service-services-page:active {
+	background: #9c1006;
+}
+
+.menu-service-services-page:link .services-menu-icon,
+.menu-service-services-page:visited .services-menu-icon {
+	background-image: url(./img/sprite_services_link.png);
+}
+
+.menu-service-services-page:hover .services-menu-icon,
+.menu-service-services-page:active .services-menu-icon {
+	background-image: url(./img/sprite_services_link_hover.png);
+}
+
+.menu-service-services-page:link .service-name,
+.menu-service-services-page:visited .service-name {
+	color: #000000;
+}
+
+.menu-service-services-page:hover .service-name,
+.menu-service-services-page:active .service-name {
+	color: #ffffff;
+}
+
+
+/* ----- Contacts ------ */
+
+.contacts-page {
+	position: relative;
+	font-size: 0;
+	line-height: 0;
+}
+
+#map {
+	position: absolute;
+	top: 0;
+	left: 0;
+	width: 100%;
+	min-height: 640px;
+	z-index: -1;
+}
+
+.contacts {
+	padding: 400px 0 80px 0;
+	text-align: center;
+}
+
+.contacts-head {
+	display: inline-block;
+	vertical-align: top;
+	color: #ffffff;
+	font-family: 'SourceSansPro-Black', sans-serif;
+	font-size: 43px;
+	line-height: 45px;
+	text-transform: uppercase;
+	/*padding: 0 0 30px 0;*/
+}
+
+.contacts-tel-icon {
+	display: inline-block;
+	vertical-align: middle;
+	width: 39px;
+	height: 39px;
+	margin: 0 17px 0 0;
+	background-image: url(./img/sprite.png);
+	background-size: 165%;
+	background-repeat: no-repeat;
+	background-position: 0 -40px;
+}
+
+.contacts-address {
+	color: #a7a7a7;
+	font-size: 24px;
+	line-height: 24px;
+}
+
+.contacts-form {
+	display: inline-block;
+	vertical-align: top;
+	width: 41%;
+	padding: 120px 0 0 0;
+	text-align: left;
+}
+
+.form-contacts-head {
+	font-family: 'SourceSansPro-Black';
+	color: #fce109;
+	font-size: 24px;
+	line-height: 32px;
+	font-weight: bold;
+	margin: 0 0 15px 0;
+}
+
+.inpt-name,
+.inpt-telnum,
+.inpt-telnum {
+	display: inline-block;
+	vertical-align: top;
+	width: 100%;
+	margin: 0 0 20px 0;
+	padding: 2px 0;
+	color: #757575;
+	font-size: 16px;
+	line-height: 24px;
+	background: none;
+	border-top: 1px solid transparent;
+	border-right: 1px solid transparent;
+	border-left: 1px solid transparent;;
+	border-bottom: 1px solid #e0e0e0;
+}
+
+.inpt-name {
+
+}
+
+.inpt-telnum {
+
+}
+
+.inpt-telnum {
+
+}
+
+.send-btn {
+	display: inline-block;
+	vertical-align: top;
+	width: 100%;
+	text-align: center;
+	background: #fce109;
+	color: #000000;
+	font-size: 14px;
+	line-height: 24px;
+	padding: 5px 0;
+	border: none;
+	-webkit-border-radius: 2px;
+	-moz-border-radius: 2px;
+	-ms-border-radius: 2px;
+	-o-border-radius: 2px;
+	border-radius: 2px;
+	text-transform: uppercase;
+
+	-webkit-transition-property: background color;
+    -webkit-transition-duration: 0.3s;
+    -webkit-transition-timing-function: ease;
+
+    -moz-transition-property: background color;
+    -moz-transition-duration: 0.3s;
+    -moz-transition-timing-function: ease;
+
+    -ms-transition-property: background color;
+    -ms-transition-duration: 0.3s;
+    -ms-transition-timing-function: ease;
+
+    -o-transition-property: background color;
+    -o-transition-duration: 0.3s;
+    -o-transition-timing-function: ease;
+
+    transition-property: background color;
+    transition-duration: 0.3s;
+    transition-timing-function: ease;
+
+}
+
+.send-btn:link,
+.send-btn:visited {
+	color: #000000;
+	background: #fce109;
+}
+
+.send-btn:hover,
+.send-btn:active {
+	color: #ffffff;
+	background: #9c1006;
+}
 
 /*-------------------------------------------*/
 /* ----- FOOTER ------ */
