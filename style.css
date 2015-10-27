@@ -149,7 +149,7 @@ a {
 	z-index: 99;
 }
 
-.respinsive-menu-btn {
+.responsive-menu-btn {
 	display: none;
 	width: 33.33%;
 	text-align: left;
@@ -889,7 +889,7 @@ a {
 	height: 300px;
 	margin: 0 0 15px 0;
 	background-image: url(./img/alarm_service_photo.jpg);
-	background-size: 100%;
+	background-size: cover;
 	background-repeat: no-repeat;
 	background-position: center;
 }

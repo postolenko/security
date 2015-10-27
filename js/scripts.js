@@ -1,6 +1,7 @@
 $(document).ready(function() {
 
 	getHeadBg();
+	responsiveService(bodyWidth);
 
 	$(document).scroll(function() {
 		getHeadBg();
@@ -19,17 +20,23 @@ $(document).ready(function() {
 });
 
 
-if( $(".content div").hasClass("service-page") && $(".content div").hasClass("type-service-photo")) {
+function responsiveService() {
 
-	$(".service-page-gradient").css({"height":$(".services-menu-services-page").height() +"px",
+	if( $(".content div").hasClass("service-page") && $(".content div").hasClass("type-service-photo")) {
+
+		$(".service-page-gradient").css({"height":$(".services-menu-services-page").height() +"px",
 		"top": $(".type-service-head-content").height() + "px"});
 
-}else if ($(".content div").hasClass("service-page") ) {
+	}else if ($(".content div").hasClass("service-page") ) {
 
-	$(".service-page-gradient").css({"height":$(".services-menu-services-page").height() + $(".type-service-head-content").height() +"px",
-		"top": 0 + "px"});
+		$(".service-page-gradient").css({"height":$(".services-menu-services-page").height() + $(".type-service-head-content").height() +"px",
+			"top": 0 + "px"});
+
+	}
 
 }
+
+
 // else {
 
 // 	$(".service-page-gradient").css({"top": $(".type-service-head-content").height() + "px"});
@@ -52,6 +59,7 @@ $(window).resize(function() {
 	bodyWidth = w.innerWidth || e.clientWidth || g.clientWidth;
 
 	getResponsiveNav(bodyWidth);
+	responsiveService(bodyWidth);
 
 });
 
@@ -76,6 +84,37 @@ function getResponsiveNav(bodyWidth) {
 					$(".logo-image").removeClass("hide-logo");
 
 				}
+
+	}
+
+}
+
+
+function responsiveService(bodyWidth) {
+
+	if( $(".content div").hasClass("service-page") && $(".content div").hasClass("type-service-photo")) {
+
+		$(".service-page-gradient").css({"height":$(".services-menu-services-page").height() - $(".type-service-head-content").height() +"px",
+		"top": $(".type-service-head-content").height() + "px"});
+
+	}else if ($(".content div").hasClass("service-page") ) {
+
+		$(".service-page-gradient").css({"height":$(".services-menu-services-page").height() + $(".type-service-head-content").height() +"px",
+			"top": 0 + "px"});
+
+	}
+
+	if( bodyWidth <= 768 ) {
+
+		$(".service-photos-box").css({"top": $(".header-site").offset().top + 40 + "px"});
+		console.log($(".responsive-menu-btn").height());
+		$(".type-service-head-content").css({"margin-top": $(".service-photos-box").height() + "px"});
+
+	} else {
+
+		$(".service-photos-box").css({"top":""});
+
+		$(".type-service-head-content").css({"margin-top": ""});
 
 	}
 

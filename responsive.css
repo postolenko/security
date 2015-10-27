@@ -17,7 +17,7 @@
 		padding: 20px 0;
 	}
 
-	.respinsive-menu-btn {
+	.responsive-menu-btn {
 		display: inline-block;
 		vertical-align: middle;
 	}
@@ -177,6 +177,24 @@
 
 
 
+	.service-photos-box {
+		width: 100%;
+		position: absolute;
+		top: 0;
+		left: 0;
+	}
+
+	.type-service-photo {
+		height: 300px;
+	}
+
+	.type-service-head-content {
+		position: relative;
+	}
+
+
+
+
 
 	.map-box {
 		position: relative;
@@ -209,6 +227,15 @@
 		padding-right: 0;
 	}
 
+	.type-service-head {
+		font-size: 24px;
+	}
+
+	.type-service-description {
+		font-size: 18px;
+		color: #ffffff;
+	}
+
 	.services-menu-services-page {
 		display: none;
 	}
@@ -221,6 +248,10 @@
 
 	.contacts-form {
 		width: 90%;
+	}
+
+	.type-service-photo {
+		width: 100%;
 	}
 
 }
