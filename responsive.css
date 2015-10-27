@@ -204,6 +204,15 @@
 
 
 
+	.type-service {
+		width: 100%;
+		padding-right: 0;
+	}
+
+	.services-menu-services-page {
+		display: none;
+	}
+
 
 
 	.contacts-tel-icon {
