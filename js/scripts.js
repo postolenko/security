@@ -26,7 +26,7 @@ if( $(".content div").hasClass("service-page") && $(".content div").hasClass("ty
 
 }else if ($(".content div").hasClass("service-page") ) {
 
-	$(".service-page-gradient").css({"height":$(".services-menu-services-page").outerHeight(true) +"px",
+	$(".service-page-gradient").css({"height":$(".services-menu-services-page").height() + $(".type-service-head-content").height() +"px",
 		"top": 0 + "px"});
 
 }

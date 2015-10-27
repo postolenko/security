@@ -926,11 +926,12 @@ a {
 	position: absolute;
 	top: 0;
 	left: 0;
-	background: -webkit-linear-gradient(top, rgba(0,0,0,.0) 0%,rgba(0,0,0,.0) 90px,rgba(0,0,0,0.05) 130px,rgba(0,0,0,0.3) 210px,rgba(0,0,0,0.4) 260px,rgba(0,0,0,0.96) 340px,rgba(0,0,0,0.97) 350px,rgba(0,0,0,1) 100%);
-	background: -moz-linear-gradient(top, rgba(0,0,0,.0) 0%,rgba(0,0,0,.0) 90px,rgba(0,0,0,0.05) 130px,rgba(0,0,0,0.3) 210px,rgba(0,0,0,0.4) 260px,rgba(0,0,0,0.96) 340px,rgba(0,0,0,0.97) 350px,rgba(0,0,0,1) 100%);
-	background: -ms-linear-gradient(top, rgba(0,0,0,.0) 0%,rgba(0,0,0,.0) 90px,rgba(0,0,0,0.05) 130px,rgba(0,0,0,0.3) 210px,rgba(0,0,0,0.4) 260px,rgba(0,0,0,0.96) 340px,rgba(0,0,0,0.97) 350px,rgba(0,0,0,1) 100%);
-	background: -o-linear-gradient(top, rgba(0,0,0,.0) 0%,rgba(0,0,0,.0) 90px,rgba(0,0,0,0.05) 130px,rgba(0,0,0,0.3) 210px,rgba(0,0,0,0.4) 260px,rgba(0,0,0,0.96) 340px,rgba(0,0,0,0.97) 350px,rgba(0,0,0,1) 100%);
-	background: linear-gradient(top, rgba(0,0,0,.0) 0%,rgba(0,0,0,.0) 90px,rgba(0,0,0,0.05) 30px,rgba(0,0,0,0.3) 210px,rgba(0,0,0,0.4) 260px,rgba(0,0,0,0.96) 340px,rgba(0,0,0,0.97) 350px,rgba(0,0,0,1) 100%);
+	background: -webkit-linear-gradient(top, rgba(0,0,0,.0) 0%,rgba(0,0,0,.0) 90px,rgba(0,0,0,0.05) 130px,rgba(0,0,0,0.3) 210px,rgba(0,0,0,0.4) 260px,rgba(0,0,0,0.96) 340px,rgba(0,0,0,1) 350px,rgba(0,0,0,1) 100%);
+	background: -moz-linear-gradient(top, rgba(0,0,0,.0) 0%,rgba(0,0,0,.0) 90px,rgba(0,0,0,0.05) 130px,rgba(0,0,0,0.3) 210px,rgba(0,0,0,0.4) 260px,rgba(0,0,0,0.96) 340px,rgba(0,0,0,1) 350px,rgba(0,0,0,1) 100%);
+	background: -ms-linear-gradient(top, rgba(0,0,0,.0) 0%,rgba(0,0,0,.0) 90px,rgba(0,0,0,0.05) 130px,rgba(0,0,0,0.3) 210px,rgba(0,0,0,0.4) 260px,rgba(0,0,0,0.96) 340px,rgba(0,0,0,1) 350px,rgba(0,0,0,1) 100%);
+	background: -o-linear-gradient(top, rgba(0,0,0,.0) 0%,rgba(0,0,0,.0) 90px,rgba(0,0,0,0.05) 130px,rgba(0,0,0,0.3) 210px,rgba(0,0,0,0.4) 260px,rgba(0,0,0,0.96) 340px,rgba(0,0,0,1) 350px,rgba(0,0,0,1) 100%);
+	background: linear-gradient(top, rgba(0,0,0,.0) 0%,rgba(0,0,0,.0) 90px,rgba(0,0,0,0.05) 30px,rgba(0,0,0,0.3) 210px,rgba(0,0,0,0.4) 260px,rgba(0,0,0,0.96) 340px,rgba(0,0,0,1) 350px,rgba(0,0,0,1) 100%);
+	
 	z-index: -1;
 }
 
