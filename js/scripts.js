@@ -107,7 +107,9 @@ function responsiveService(bodyWidth) {
 	if( bodyWidth <= 768 ) {
 
 		$(".service-photos-box").css({"top": $(".header-site").offset().top + 40 + "px"});
+		
 		console.log($(".responsive-menu-btn").height());
+
 		$(".type-service-head-content").css({"margin-top": $(".service-photos-box").height() + "px"});
 
 	} else {
