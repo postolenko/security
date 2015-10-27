@@ -4,9 +4,9 @@
 		padding: 0 2%;
 	}
 
-	.about-company-bg {
+/*	.about-company-bg {
 		min-height: 460px;
-	}
+	}*/
 
 }
 
@@ -126,7 +126,7 @@
 	}
 
 	.security-head {
-		padding: 260px 0 0 0;
+		/*padding: 260px 0 0 0;*/
 		font-size: 24px;
 		line-height: 26px;
 	}
@@ -156,6 +156,63 @@
 
 
 
+
+
+	.about-company-bg {
+		min-height: 450px;
+	}
+
+	.about-company-description {
+		width: 100%;
+	}
+
+	.commercial-offer-about-company {
+		width: 100%;
+		padding: 30px 0 0 0;
+	}
+
+	.commercial-offer-about-company .commercial-offer {
+		margin: 0 auto;
+	}
+
+
+
+
+	.map-box {
+		position: relative;
+		width: 100%;
+		min-height: 650px;
+		text-align: center;
+		overflow: hidden;
+	}
+
+	#map {
+		display: block;
+		width: 200%;
+		margin: 0 0 0 -50%;
+		min-height: 650px;
+	}
+
+	.contacts-map-text {
+		padding: 405px 0 80px 0;
+	}
+
+	.contacts-head {
+		font-size: 24px;
+		line-height: 26px;
+	}
+
+
+
+
+
+	.contacts-tel-icon {
+		display: none;
+	}
+
+	.contacts-form {
+		width: 90%;
+	}
 
 }
 
@@ -240,6 +297,31 @@
 	}
 
 
+	.map-box {
+		position: relative;
+		width: 100%;
+		min-height: 450px;
+		text-align: center;
+		overflow: hidden;
+	}
+
+	#map {
+		display: block;
+		width: 200%;
+		margin: 0 0 0 -50%;
+		min-height: 450px;
+	}
+
+	.contacts-map-text {
+		padding: 205px 0 80px 0;
+	}
+
+	.contacts-head {
+		font-size: 20px;
+		line-height: 26px;
+	}
+
+
 	.corporation,
 	.footer-contacts,
 	.web-developer,
@@ -249,6 +331,38 @@
 		line-height: 15px;
 		width: 100%;
 		text-align: left;
+	}
+
+
+	/*#map {
+		min-height: 450px;
+	}
+
+	.contacts-map-text {
+		width: 100%;
+		margin: auto;
+		position: absolute;
+		top: 0;
+		left: 0;
+		bottom: 0;
+		right: 0;
+	}
+
+	.contacts-head {
+		font-size: 24px;
+		line-height: 26px;
+	}*/
+
+
+
+
+
+	.contacts {
+		padding: 0 0 30px 0;
+	}
+
+	.contacts-form {
+		width: 100%;
 	}
 
 

@@ -18,35 +18,23 @@ $(document).ready(function() {
 
 });
 
-var wrap = document.getElementsByClassName("wrapper")[0];
 
-var heightGradient =  document.getElementsByClassName("gradientheight")[0].offsetHeight;
+if( $(".content div").hasClass("service-page") && $(".content div").hasClass("type-service-photo")) {
 
-// console.log(heightGradient);
+	$(".service-page-gradient").css({"height":$(".services-menu-services-page").height() +"px",
+		"top": $(".type-service-head-content").height() + "px"});
 
-var proportional = 1;
+}else if ($(".content div").hasClass("service-page") ) {
 
-// if(document.getElementsByClassName("gradientheight")[0]  ||  document.getElementsByClassName("type-service-photo")[0]) {
+	$(".service-page-gradient").css({"height":$(".services-menu-services-page").outerHeight(true) +"px",
+		"top": 0 + "px"});
 
-// 	proportional = 1;
+}
+// else {
 
-// } else {
+// 	$(".service-page-gradient").css({"top": $(".type-service-head-content").height() + "px"});
 
-// 	proportional = 1.5;
 // }
-
-// 310 = 2.1
-// 410 = 1.59
-// 470 = 1.38
-// 550 = 1.18
-// 650 = 1.02
-
-// wrap.style.background = "-webkit-linear-gradient(top, rgba(0,0,0,"+0+") "+0+"%,rgba(0,0,0,0) "+(heightGradient/2.1)/proportional+"px,rgba(0,0,0,."+1+") "+(heightGradient/1.59)/proportional+"px,rgba(0,0,0,."+18+") "+(heightGradient/1.38)/proportional+"px,rgba(0,0,0,."+6+") "+(heightGradient/1.18)/proportional+"px,rgba(0,0,0,"+1+") "+(heightGradient/1.01)/proportional+"px,rgba(0,0,0,"+1+") "+100+"%)";
-// wrap.style.background = "-moz-linear-gradient(top, rgba(0,0,0,"+0+") "+0+"%,rgba(0,0,0,0) "+310/proportional+"px,rgba(0,0,0,."+1+") "+410/proportional+"px,rgba(0,0,0,."+3+") "+470/proportional+"px,rgba(0,0,0,."+6+") "+550/proportional+"px,rgba(0,0,0,"+1+") "+660/proportional+"px,rgba(0,0,0,"+1+") "+100+"%)";
-// wrap.style.background = "-ms-linear-gradient(top, rgba(0,0,0,"+0+") "+0+"%,rgba(0,0,0,0) "+310/proportional+"px,rgba(0,0,0,."+1+") "+410/proportional+"px,rgba(0,0,0,."+18+") "+470/proportional+"px,rgba(0,0,0,."+6+") "+550/proportional+"px,rgba(0,0,0,"+1+") "+660/proportional+"px,rgba(0,0,0,"+1+") "+100+"%)";
-// wrap.style.background = "-o-linear-gradient(top, rgba(0,0,0,"+0+") "+0+"%,rgba(0,0,0,0) "+310/proportional+"px,rgba(0,0,0,."+1+") "+410/proportional+"px,rgba(0,0,0,."+18+") "+470/proportional+"px,rgba(0,0,0,."+6+") "+550/proportional+"px,rgba(0,0,0,"+1+") "+660/proportional+"px,rgba(0,0,0,"+1+") "+100+"%)";
-// wrap.style.background = "linear-gradient(top, rgba(0,0,0,"+0+") "+0+"%,rgba(0,0,0,0) "+310/proportional+"px,rgba(0,0,0,."+1+") "+410/proportional+"px,rgba(0,0,0,."+18+") "+470/proportional+"px,rgba(0,0,0,."+6+") "+550/proportional+"px,rgba(0,0,0,"+1+") "+660/proportional+"px,rgba(0,0,0,"+1+") "+100+"%)";
-
 
 var countRisizeForNav = 0;
 var countClearResizeForNav = 0;
