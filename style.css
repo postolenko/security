@@ -70,7 +70,6 @@ body {
 
 body {
 	background-color: #bebebe;
-	/*background-color: red;*/
 }
 
 .wrapper {
@@ -344,8 +343,6 @@ a {
 }
 
 .responsive-phone-box {
-	/*display: inline-block;
-	vertical-align: middle;*/
 	display: none;
 	width: 33.33%;
 	position: relative;
@@ -354,9 +351,6 @@ a {
 .responsive-phone {
 	display: inline-block;
 	vertical-align: middle;
-/*	position: absolute;
-	top: 13px;
-	right: 6%;*/
 	z-index: 999;
 	position: absolute;
 	top: -7px;
@@ -380,7 +374,6 @@ a {
 
 
 .head-text {
-	/*padding: 400px 0 0 0;*/
 	text-align: center;
 }
 
@@ -397,7 +390,6 @@ a {
 .company-description {
 	font-size: 24px;
 	line-height: 26px;
-	/*color: #afafaf;*/
 	color: #ffffff;
 	font-weight: normal;
 }
@@ -409,32 +401,38 @@ a {
 	content: "";
 	display: block;
 	width: 100%;
-	height: 350px;
+	height: 250px;
 	position: absolute;
-	top: -350px;
+	top: -250px;
 	left: 0;
-	background: -webkit-linear-gradient(top, rgba(0,0,0,.0) 0%,rgba(0,0,0,.0) 90px,rgba(0,0,0,0.05) 130px,rgba(0,0,0,0.3) 210px,rgba(0,0,0,0.4) 260px,rgba(0,0,0,0.96) 340px,rgba(0,0,0,0.97) 350px,rgba(0,0,0,1) 100%);
+
+
+	background: -webkit-linear-gradient(top, rgba(0,0,0,.0) 0%, rgba(0,0,0,1) 250px);
+	background: -moz-linear-gradient(top, rgba(0,0,0,.0) 0%, rgba(0,0,0,1) 250px);
+	background: -ms-linear-gradient(top, rgba(0,0,0,.0) 0%, rgba(0,0,0,1) 250px);
+	background: -o-linear-gradient(top, rgba(0,0,0,.0) 0%, rgba(0,0,0,1) 250px);
+	background: linear-gradient(top, rgba(0,0,0,.0) 0%, rgba(0,0,0,1) 250px);
+/*	background: -moz-linear-gradient(top, rgba(0,0,0,.0) 0%,rgba(0,0,0,0) 100px,rgba(0,0,0,1) 460px,rgba(0,0,0,1) 100%);
+	background: -ms-linear-gradient(top, rgba(0,0,0,.0) 0%,rgba(0,0,0,0) 100px,rgba(0,0,0,1) 460px,rgba(0,0,0,1) 100%);
+	background: -o-linear-gradient(top, rgba(0,0,0,.0) 0%,rgba(0,0,0,0) 100px,rgba(0,0,0,1) 460px,rgba(0,0,0,1) 100%);
+	background: linear-gradient(top, rgba(0,0,0,.0) 0%,rgba(0,0,0,0) 100px,rgba(0,0,0,1) 460px,rgba(0,0,0,1) 100%);
+*/
+/*	background: -webkit-linear-gradient(top, rgba(0,0,0,.0) 0%,rgba(0,0,0,.0) 90px,rgba(0,0,0,0.05) 130px,rgba(0,0,0,0.3) 210px,rgba(0,0,0,0.4) 260px,rgba(0,0,0,0.96) 340px,rgba(0,0,0,0.97) 350px,rgba(0,0,0,1) 100%);
 	background: -moz-linear-gradient(top, rgba(0,0,0,.0) 0%,rgba(0,0,0,.0) 90px,rgba(0,0,0,0.05) 130px,rgba(0,0,0,0.3) 210px,rgba(0,0,0,0.4) 260px,rgba(0,0,0,0.96) 340px,rgba(0,0,0,0.97) 350px,rgba(0,0,0,1) 100%);
 	background: -ms-linear-gradient(top, rgba(0,0,0,.0) 0%,rgba(0,0,0,.0) 90px,rgba(0,0,0,0.05) 130px,rgba(0,0,0,0.3) 210px,rgba(0,0,0,0.4) 260px,rgba(0,0,0,0.96) 340px,rgba(0,0,0,0.97) 350px,rgba(0,0,0,1) 100%);
 	background: -o-linear-gradient(top, rgba(0,0,0,.0) 0%,rgba(0,0,0,.0) 90px,rgba(0,0,0,0.05) 130px,rgba(0,0,0,0.3) 210px,rgba(0,0,0,0.4) 260px,rgba(0,0,0,0.96) 340px,rgba(0,0,0,0.97) 350px,rgba(0,0,0,1) 100%);
 	background: linear-gradient(top, rgba(0,0,0,.0) 0%,rgba(0,0,0,.0) 90px,rgba(0,0,0,0.05) 30px,rgba(0,0,0,0.3) 210px,rgba(0,0,0,0.4) 260px,rgba(0,0,0,0.96) 340px,rgba(0,0,0,0.97) 350px,rgba(0,0,0,1) 100%);
+	*/
+
 	z-index: 2;
 }
 
 .home {
-	position: r
+	position: relative;
 	font-size: 0;
 	line-height: 0;
-	/*margin: 85px 0 0 0;*/
-	/*margin: 30px 0 0 0;*/
 	padding: 0 0 70px 0;
 	background: #000000;
-	/*box-shadow: 0px -50px 86px 70px #000000;*/
-	/*box-shadow: 0px -50px 230px 50px #000000;*/
-}
-
-.home-page {
-	/*padding: 640px 0 0 0;*/
 }
 
 .home-bg {
@@ -471,7 +469,7 @@ a {
 }
 
 .read-more {
-	margin: 0px 0 22px 0;
+	margin: 0px 0 24px 0;
 }
 
 .read-more-link {
@@ -886,16 +884,9 @@ a {
 	padding: 0 20px 0 0;
 }
 
-.type-service-photo {
-	display: inline-block;
-	vertical-align: top;
+.service-photos-box img {
 	width: 100%;
-	height: 300px;
-	margin: 0 0 15px 0;
-	background-image: url(./img/alarm_service_photo.jpg);
-	background-size: cover;
-	background-repeat: no-repeat;
-	background-position: center;
+	height: auto;
 }
 
 .type-service-text p {
@@ -909,16 +900,6 @@ a {
 
 .type-service-text {
 	position: relative;
-}
-
-/*.type-service-content {
-	background: #000000;
-	font-size: 0;
-	line-height: 0;
-}*/
-
-.type-service-text-box {
-	/*position: relative;*/
 }
 
 .services-menu-services-page {
