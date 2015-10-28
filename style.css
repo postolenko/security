@@ -521,12 +521,13 @@ a {
 	width: 34px;
 	height: 40px;
 	margin: 0 auto;
-	/* background-image: url(./img/sprite.png); */
-	/* background-image: url(./img/word_icon.png); */
-	background-image: url(./img/microsoft_word.png);
 	background-size: 100%;
 	background-repeat: no-repeat;
-	background-position: center 4px;
+	background-image: url(./img/word_icon.png);
+	background-position: center 3px;
+
+	/*background-image: url(./img/sprite.png);
+	background-position: center -154px;*/
 }
 
 .commercial-offer-link {
@@ -772,7 +773,7 @@ a {
 	background-repeat: no-repeat;
 	background-position: top;
 	width: 100%;
-	z-index: -1;
+	z-index: -3;
 
 }
 
