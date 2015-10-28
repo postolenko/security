@@ -1018,13 +1018,12 @@ a {
 
 .contacts-map-text {
 	width: 100%;
-	margin: auto;
 	position: absolute;
 	top: 0;
 	left: 0;
 	bottom: 0;
 	right: 0;
-	padding: 405px 0 80px 0;
+	margin: 405px auto 80px auto;
 }
 
 
