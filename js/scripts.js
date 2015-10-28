@@ -53,7 +53,7 @@ var w = window,
 	bodyWidth = w.innerWidth || e.clientWidth || g.clientWidth;
 
 getResponsiveNav(bodyWidth);
-
+responsiveService(bodyWidth);
 $(window).resize(function() {
 
 	bodyWidth = w.innerWidth || e.clientWidth || g.clientWidth;
@@ -92,23 +92,27 @@ function getResponsiveNav(bodyWidth) {
 
 function responsiveService(bodyWidth) {
 
-	if( $(".content div").hasClass("service-page") && $(".content div").hasClass("type-service-photo")) {
+	if( $(".content div").hasClass("service-page") && $(".service-photos-box img")[0] && bodyWidth >= 768) {
 
-		$(".service-page-gradient").css({"height":$(".services-menu-services-page").height() - $(".type-service-head-content").height() +"px",
-		"top": $(".type-service-head-content").height() + "px"});
+		if($(".wrapper").hasClass("servisec-gradient-without-photo-ormobile")) {
 
-	}else if ($(".content div").hasClass("service-page") ) {
+			$(".wrapper").removeClass("servisec-gradient-without-photo-ormobile");
 
-		$(".service-page-gradient").css({"height":$(".services-menu-services-page").height() + $(".type-service-head-content").height() +"px",
-			"top": 0 + "px"});
+		}
+
+		$(".wrapper").addClass("servisec-gradient-with-photo");
+
+	} else if ( ($(".content div").hasClass("service-page") && $(".service-photos-box img").length == 0) || bodyWidth < 768) {
+
+		$(".wrapper").addClass("servisec-gradient-without-photo-ormobile");
 
 	}
 
+
 	if( bodyWidth <= 768 ) {
 
-		$(".service-photos-box").css({"top": $(".header-site").offset().top + 40 + "px"});
-		
-		console.log($(".responsive-menu-btn").height());
+		// $(".service-photos-box").css({"top": $(".header-site").height() + "px"});
+		$(".service-photos-box").css({"top": 70 + "px"});
 
 		$(".type-service-head-content").css({"margin-top": $(".service-photos-box").height() + "px"});
 

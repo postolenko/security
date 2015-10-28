@@ -77,14 +77,28 @@ body {
     display: table; 
     height: 100%;
     min-width: 100%;
+}
 
-/*-webkit-linear-gradient(top, rgba(0,0,0,"+0+") "+0+"%,rgba(0,0,0,0) "+(heightGradient/2.1)/proportional+"px,rgba(0,0,0,."+1+") "+(heightGradient/1.59)/proportional+"px,rgba(0,0,0,."+18+") "+(heightGradient/1.38)/proportional+"px,rgba(0,0,0,."+6+") "+(heightGradient/1.18)/proportional+"px,rgba(0,0,0,"+1+") "+(heightGradient/1.01)/proportional+"px,rgba(0,0,0,"+1)100%);*/
+.servisec-gradient-with-photo {
 
-
-background: -webkit-linear-gradient(top, rgba(0,0,0,.0) 0%,rgba(0,0,0,.0) 390px,rgba(0,0,0,0.05) 430px,rgba(0,0,0,0.3) 510px,rgba(0,0,0,0.4) 560px,rgba(0,0,0,0.96) 640px,rgba(0,0,0,0.97) 650px,rgba(0,0,0,1) 100%);
-
+	background: -webkit-linear-gradient(top, rgba(0,0,0,.0) 0%,rgba(0,0,0,0) 160px,rgba(0,0,0,1) 660px,rgba(0,0,0,1) 100%);
+	background: -moz-linear-gradient(top, rgba(0,0,0,.0) 0%,rgba(0,0,0,0) 160px,rgba(0,0,0,1) 660px,rgba(0,0,0,1) 100%);
+	background: -ms-linear-gradient(top, rgba(0,0,0,.0) 0%,rgba(0,0,0,0) 160px,rgba(0,0,0,1) 660px,rgba(0,0,0,1) 100%);
+	background: -o-linear-gradient(top, rgba(0,0,0,.0) 0%,rgba(0,0,0,0) 160px,rgba(0,0,0,1) 660px,rgba(0,0,0,1) 100%);
+	background: linear-gradient(top, rgba(0,0,0,.0) 0%,rgba(0,0,0,0) 160px,rgba(0,0,0,1) 660px,rgba(0,0,0,1) 100%);
 
 }
+
+.servisec-gradient-without-photo-ormobile {
+
+	background: -webkit-linear-gradient(top, rgba(0,0,0,.0) 0%,rgba(0,0,0,0) 100px,rgba(0,0,0,1) 460px,rgba(0,0,0,1) 100%);
+	background: -moz-linear-gradient(top, rgba(0,0,0,.0) 0%,rgba(0,0,0,0) 100px,rgba(0,0,0,1) 460px,rgba(0,0,0,1) 100%);
+	background: -ms-linear-gradient(top, rgba(0,0,0,.0) 0%,rgba(0,0,0,0) 100px,rgba(0,0,0,1) 460px,rgba(0,0,0,1) 100%);
+	background: -o-linear-gradient(top, rgba(0,0,0,.0) 0%,rgba(0,0,0,0) 100px,rgba(0,0,0,1) 460px,rgba(0,0,0,1) 100%);
+	background: linear-gradient(top, rgba(0,0,0,.0) 0%,rgba(0,0,0,0) 100px,rgba(0,0,0,1) 460px,rgba(0,0,0,1) 100%);
+
+}
+
 
 .content {
     position: relative;
@@ -139,6 +153,7 @@ a {
 /*-------------------------------------------*/
 
 .header-site {
+	display: block;
 	width: 100%;
 	background: #000000;
 	font-size: 0;
@@ -153,8 +168,6 @@ a {
 	display: none;
 	width: 33.33%;
 	text-align: left;
-	
-	/*padding: 10px 0 10px 15px;*/
 }
 
 .responsive-btn {
@@ -843,35 +856,17 @@ a {
 .services {
 	font-size: 0;
 	line-height: 0;
-	/*padding: 155px 0 70px 0;*/
-	padding: 140px 0 70px 0;
-	/*position: relative;*/
-	/*background: #000000;*/
+	padding: 155px 0 70px 0;
 }
 
-.servicestable {
-	display: table;
-}
-
-.type-service {
-	/*display: inline-block;
-	vertical-align: top;*/
-	display: table-cell;
-	width: 68%;
-	/*width: 69%;*/
-	/*width: 100%;*/
-	/*padding: 0 32% 0 0;*/
-	text-align: center;
-	/*background: #000000;*/
-	padding: 0 20px 0 0;
-}
 
 .type-service-head {
 	color: #ffffff;
 	font-family: 'SourceSansPro-Black', sans-serif;
 	font-size: 44px;
-	line-height: 47px;
+	line-height: 44px;
 	text-transform: uppercase;
+	margin: 0;
 	padding: 0 0 30px 0;
 }
 
@@ -879,7 +874,16 @@ a {
 	color: #000000;
 	font-size: 24px;
 	line-height: 30px;
+	margin: 0;
 	padding: 0px 0px 50px;
+}
+
+.type-service {
+	display: inline-block;
+	vertical-align: top;
+	width: 68%;
+	text-align: center;
+	padding: 0 20px 0 0;
 }
 
 .type-service-photo {
@@ -894,7 +898,7 @@ a {
 	background-position: center;
 }
 
-.type-service-des {
+.type-service-text p {
 	font-family: 'SourceSansPro', sans-serif;
 	font-size: 14px;
 	line-height: 18px;
@@ -905,7 +909,6 @@ a {
 
 .type-service-text {
 	position: relative;
-	/*padding: 0 32% 0 0;*/
 }
 
 /*.type-service-content {
@@ -918,31 +921,13 @@ a {
 	/*position: relative;*/
 }
 
-/*.type-service-text-box:before {*/
-.service-page-gradient {
-	display: block;
-	width: 100%;
-	height: 100vh;
-	position: absolute;
-	top: 0;
-	left: 0;
-	background: -webkit-linear-gradient(top, rgba(0,0,0,.0) 0%,rgba(0,0,0,.0) 90px,rgba(0,0,0,0.05) 130px,rgba(0,0,0,0.3) 210px,rgba(0,0,0,0.4) 260px,rgba(0,0,0,0.96) 340px,rgba(0,0,0,1) 350px,rgba(0,0,0,1) 100%);
-	background: -moz-linear-gradient(top, rgba(0,0,0,.0) 0%,rgba(0,0,0,.0) 90px,rgba(0,0,0,0.05) 130px,rgba(0,0,0,0.3) 210px,rgba(0,0,0,0.4) 260px,rgba(0,0,0,0.96) 340px,rgba(0,0,0,1) 350px,rgba(0,0,0,1) 100%);
-	background: -ms-linear-gradient(top, rgba(0,0,0,.0) 0%,rgba(0,0,0,.0) 90px,rgba(0,0,0,0.05) 130px,rgba(0,0,0,0.3) 210px,rgba(0,0,0,0.4) 260px,rgba(0,0,0,0.96) 340px,rgba(0,0,0,1) 350px,rgba(0,0,0,1) 100%);
-	background: -o-linear-gradient(top, rgba(0,0,0,.0) 0%,rgba(0,0,0,.0) 90px,rgba(0,0,0,0.05) 130px,rgba(0,0,0,0.3) 210px,rgba(0,0,0,0.4) 260px,rgba(0,0,0,0.96) 340px,rgba(0,0,0,1) 350px,rgba(0,0,0,1) 100%);
-	background: linear-gradient(top, rgba(0,0,0,.0) 0%,rgba(0,0,0,.0) 90px,rgba(0,0,0,0.05) 30px,rgba(0,0,0,0.3) 210px,rgba(0,0,0,0.4) 260px,rgba(0,0,0,0.96) 340px,rgba(0,0,0,1) 350px,rgba(0,0,0,1) 100%);
-	
-	z-index: -1;
-}
-
-
 .services-menu-services-page {
-	/*display: inline-block;
-	vertical-align: top;*/
-	display: table-cell;
-	/*float: right;*/
+	display: inline-block;
+	vertical-align: top;
 	width: 32%;
-	/*width: 31%;*/
+	position: relative;
+	top: 0;
+	right: 0;
 
 }
 
