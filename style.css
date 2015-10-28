@@ -98,7 +98,6 @@ body {
 
 }
 
-
 .content {
     position: relative;
     display: table-row;
@@ -379,7 +378,6 @@ a {
 }
 
 .security-head {
-	/*padding: 400px 0 0 0;*/
 	font-family: 'SourceSansPro-Black', sans-serif;
 	font-size: 44px;
 	line-height: 46px;
@@ -520,16 +518,15 @@ a {
 
 .commercial-offer-icon {
 	display: block;
-	width: 30px;
+	width: 34px;
 	height: 40px;
 	margin: 0 auto;
-	background-image: url(./img/sprite.png);
-/*	background-size: 100%;
-	background-repeat: no-repeat;
-	background-position: center -135px;*/
+	/* background-image: url(./img/sprite.png); */
+	/* background-image: url(./img/word_icon.png); */
+	background-image: url(./img/microsoft_word.png);
 	background-size: 100%;
 	background-repeat: no-repeat;
-	background-position: center -133px;
+	background-position: center 4px;
 }
 
 .commercial-offer-link {
@@ -667,44 +664,35 @@ a {
 
 
 .sequrity-object {
-	/*background-position: center 1px;*/
 	background-position: center 3px;
 }
 
 .protection-individuals {
-	/*background-position: center -78px;*/
 	background-position: center -75px;
 }
 
 .installation-video-surveillance-systems {
-	/*background-position: center -162px;*/
 	background-position: center -154px;
 }
 
 .video-surveillance-systems {
-	/*background-position: center -240px;*/
 	background-position: center -228px;
 }
 
 .fire-alarm {
-	/*background-position: center -313px;*/
 	background-position: center -295px;
 }
 
 .support-cargoes {
-	/*background-position: center -390px;*/
 	background-position: center -368px;
 }
 
 .button-disturbing-alarm-system {
-	/*background-position: center -469px;*/
 	background-position: center -444px;
 }
 
 .pultowa-protection {
-	/*background-position: center -541px;*/
 	background-position: center -512px;
-
 }
 
 
@@ -762,12 +750,11 @@ a {
 	position: absolute;
 	top: -350px;
 	left: 0;
-	background: -webkit-linear-gradient(top, rgba(0,0,0,.0) 0%,rgba(0,0,0,.0) 90px,rgba(0,0,0,0.05) 130px,rgba(0,0,0,0.3) 210px,rgba(0,0,0,0.4) 260px,rgba(0,0,0,0.96) 340px,rgba(0,0,0,0.97) 350px,rgba(0,0,0,1) 100%);
-	background: -moz-linear-gradient(top, rgba(0,0,0,.0) 0%,rgba(0,0,0,.0) 90px,rgba(0,0,0,0.05) 130px,rgba(0,0,0,0.3) 210px,rgba(0,0,0,0.4) 260px,rgba(0,0,0,0.96) 340px,rgba(0,0,0,0.97) 350px,rgba(0,0,0,1) 100%);
-	background: -ms-linear-gradient(top, rgba(0,0,0,.0) 0%,rgba(0,0,0,.0) 90px,rgba(0,0,0,0.05) 130px,rgba(0,0,0,0.3) 210px,rgba(0,0,0,0.4) 260px,rgba(0,0,0,0.96) 340px,rgba(0,0,0,0.97) 350px,rgba(0,0,0,1) 100%);
-	background: -o-linear-gradient(top, rgba(0,0,0,.0) 0%,rgba(0,0,0,.0) 90px,rgba(0,0,0,0.05) 130px,rgba(0,0,0,0.3) 210px,rgba(0,0,0,0.4) 260px,rgba(0,0,0,0.96) 340px,rgba(0,0,0,0.97) 350px,rgba(0,0,0,1) 100%);
-	background: linear-gradient(top, rgba(0,0,0,.0) 0%,rgba(0,0,0,.0) 90px,rgba(0,0,0,0.05) 30px,rgba(0,0,0,0.3) 210px,rgba(0,0,0,0.4) 260px,rgba(0,0,0,0.96) 340px,rgba(0,0,0,0.97) 350px,rgba(0,0,0,1) 100%);
-	z-index: 2;
+	background: -webkit-linear-gradient(top, rgba(0,0,0,.0) 0%, rgba(0,0,0,1) 350px);
+	background: -moz-linear-gradient(top, rgba(0,0,0,.0) 0%, rgba(0,0,0,1) 350px);
+	background: -ms-linear-gradient(top, rgba(0,0,0,.0) 0%, rgba(0,0,0,1) 350px);
+	background: -o-linear-gradient(top, rgba(0,0,0,.0) 0%, rgba(0,0,0,1) 350px);
+	background: linear-gradient(top, rgba(0,0,0,.0) 0%, rgba(0,0,0,1) 350px);
 }
 
 .about-company {
@@ -1011,6 +998,7 @@ a {
 	bottom: 0;
 	right: 0;
 	margin: 405px auto 80px auto;
+	z-index: 2;
 }
 
 
@@ -1018,23 +1006,21 @@ a {
 	content: "";
 	display: block;
 	width: 100%;
-	height: 350px;
+	height: 250px;
 	position: absolute;
-	top: -350px;
+	top: -250px;
 	left: 0;
-	background: -webkit-linear-gradient(top, rgba(0,0,0,.0) 0%,rgba(0,0,0,.0) 90px,rgba(0,0,0,0.05) 130px,rgba(0,0,0,0.3) 210px,rgba(0,0,0,0.4) 260px,rgba(0,0,0,0.96) 340px,rgba(0,0,0,0.97) 350px,rgba(0,0,0,1) 100%);
-	background: -moz-linear-gradient(top, rgba(0,0,0,.0) 0%,rgba(0,0,0,.0) 90px,rgba(0,0,0,0.05) 130px,rgba(0,0,0,0.3) 210px,rgba(0,0,0,0.4) 260px,rgba(0,0,0,0.96) 340px,rgba(0,0,0,0.97) 350px,rgba(0,0,0,1) 100%);
-	background: -ms-linear-gradient(top, rgba(0,0,0,.0) 0%,rgba(0,0,0,.0) 90px,rgba(0,0,0,0.05) 130px,rgba(0,0,0,0.3) 210px,rgba(0,0,0,0.4) 260px,rgba(0,0,0,0.96) 340px,rgba(0,0,0,0.97) 350px,rgba(0,0,0,1) 100%);
-	background: -o-linear-gradient(top, rgba(0,0,0,.0) 0%,rgba(0,0,0,.0) 90px,rgba(0,0,0,0.05) 130px,rgba(0,0,0,0.3) 210px,rgba(0,0,0,0.4) 260px,rgba(0,0,0,0.96) 340px,rgba(0,0,0,0.97) 350px,rgba(0,0,0,1) 100%);
-	background: linear-gradient(top, rgba(0,0,0,.0) 0%,rgba(0,0,0,.0) 90px,rgba(0,0,0,0.05) 30px,rgba(0,0,0,0.3) 210px,rgba(0,0,0,0.4) 260px,rgba(0,0,0,0.96) 340px,rgba(0,0,0,0.97) 350px,rgba(0,0,0,1) 100%);
-	z-index: 2;
+	background: -webkit-linear-gradient(top, rgba(0,0,0,.0) 0%, rgba(0,0,0,1) 250px);
+	background: -moz-linear-gradient(top, rgba(0,0,0,.0) 0%, rgba(0,0,0,1) 250px);
+	background: -ms-linear-gradient(top, rgba(0,0,0,.0) 0%, rgba(0,0,0,1) 250px);
+	background: -o-linear-gradient(top, rgba(0,0,0,.0) 0%, rgba(0,0,0,1) 250px);
+	background: linear-gradient(top, rgba(0,0,0,.0) 0%, rgba(0,0,0,1) 250px);
 }
 
 .contacts-head {
 	display: inline-block;
 	vertical-align: top;
-	/*word-wrap: break-word; */
-		color: #ffffff;
+	color: #ffffff;
 	font-family: 'SourceSansPro-Black', sans-serif;
 	font-size: 43px;
 	line-height: 45px;
@@ -1082,12 +1068,9 @@ a {
 }
 
 .contacts-form {
-	/*display: inline-block;
-	vertical-align: top;*/
 	display: block;
 	margin: 0 auto;
 	width: 41%;
-	/*padding: 20px 0 0 0;*/
 	text-align: left;
 }
 
@@ -1194,7 +1177,6 @@ a {
 	vertical-align: top;
 	width: 33.33%;
 	text-align: left;
-	/*padding: 0 20px 0 0;*/
 	padding: 10px 0;
 	color: #909090;
 	font-size: 12px;
