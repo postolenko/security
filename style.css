@@ -1047,7 +1047,8 @@ a {
 .contacts-head {
 	display: inline-block;
 	vertical-align: top;
-	color: #ffffff;
+	/*word-wrap: break-word; */
+		color: #ffffff;
 	font-family: 'SourceSansPro-Black', sans-serif;
 	font-size: 43px;
 	line-height: 45px;
@@ -1066,9 +1067,21 @@ a {
 	background-position: 0 -80px;
 }
 
+.contacts-head-icon-box {
+	display: inline-block;
+	vertical-align: middle;
+	width: 10%;
+}
+
 .contacts-head-tel{
 	display: inline-block;
 	vertical-align: middle;
+	width: 90%;
+	color: #ffffff;
+	font-family: 'SourceSansPro-Black', sans-serif;
+	font-size: 43px;
+	line-height: 45px;
+	text-transform: uppercase;
 }
 
 .contacts-address {
