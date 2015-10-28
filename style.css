@@ -1066,6 +1066,11 @@ a {
 	background-position: 0 -80px;
 }
 
+.contacts-head-tel{
+	display: inline-block;
+	vertical-align: middle;
+}
+
 .contacts-address {
 	color: #a7a7a7;
 	font-size: 24px;
