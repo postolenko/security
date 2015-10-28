@@ -375,56 +375,51 @@ a {
 
 .head-text {
 	text-align: center;
+	padding: 390px 0 100px 0;
 }
 
 .security-head {
-	padding: 400px 0 0 0;
+	/*padding: 400px 0 0 0;*/
 	font-family: 'SourceSansPro-Black', sans-serif;
 	font-size: 44px;
 	line-height: 46px;
 	font-weight: normal;
 	text-transform: uppercase;
 	color: #ffffff;
+	position: relative;
+	z-index: 2;
 }
 
 .company-description {
 	font-size: 24px;
 	line-height: 26px;
-	color: #ffffff;
+	color: #b4b4b4;
 	font-weight: normal;
+	position: relative;
+	z-index: 2;
 }
 
 
 /* ----- Home ------ */
 
-.home:before {
+.home-page-head {
+	position: relative;
+}
+
+.home-page-head:before {
 	content: "";
 	display: block;
 	width: 100%;
 	height: 250px;
 	position: absolute;
-	top: -250px;
+	bottom: 0;
 	left: 0;
-
-
 	background: -webkit-linear-gradient(top, rgba(0,0,0,.0) 0%, rgba(0,0,0,1) 250px);
 	background: -moz-linear-gradient(top, rgba(0,0,0,.0) 0%, rgba(0,0,0,1) 250px);
 	background: -ms-linear-gradient(top, rgba(0,0,0,.0) 0%, rgba(0,0,0,1) 250px);
 	background: -o-linear-gradient(top, rgba(0,0,0,.0) 0%, rgba(0,0,0,1) 250px);
 	background: linear-gradient(top, rgba(0,0,0,.0) 0%, rgba(0,0,0,1) 250px);
-/*	background: -moz-linear-gradient(top, rgba(0,0,0,.0) 0%,rgba(0,0,0,0) 100px,rgba(0,0,0,1) 460px,rgba(0,0,0,1) 100%);
-	background: -ms-linear-gradient(top, rgba(0,0,0,.0) 0%,rgba(0,0,0,0) 100px,rgba(0,0,0,1) 460px,rgba(0,0,0,1) 100%);
-	background: -o-linear-gradient(top, rgba(0,0,0,.0) 0%,rgba(0,0,0,0) 100px,rgba(0,0,0,1) 460px,rgba(0,0,0,1) 100%);
-	background: linear-gradient(top, rgba(0,0,0,.0) 0%,rgba(0,0,0,0) 100px,rgba(0,0,0,1) 460px,rgba(0,0,0,1) 100%);
-*/
-/*	background: -webkit-linear-gradient(top, rgba(0,0,0,.0) 0%,rgba(0,0,0,.0) 90px,rgba(0,0,0,0.05) 130px,rgba(0,0,0,0.3) 210px,rgba(0,0,0,0.4) 260px,rgba(0,0,0,0.96) 340px,rgba(0,0,0,0.97) 350px,rgba(0,0,0,1) 100%);
-	background: -moz-linear-gradient(top, rgba(0,0,0,.0) 0%,rgba(0,0,0,.0) 90px,rgba(0,0,0,0.05) 130px,rgba(0,0,0,0.3) 210px,rgba(0,0,0,0.4) 260px,rgba(0,0,0,0.96) 340px,rgba(0,0,0,0.97) 350px,rgba(0,0,0,1) 100%);
-	background: -ms-linear-gradient(top, rgba(0,0,0,.0) 0%,rgba(0,0,0,.0) 90px,rgba(0,0,0,0.05) 130px,rgba(0,0,0,0.3) 210px,rgba(0,0,0,0.4) 260px,rgba(0,0,0,0.96) 340px,rgba(0,0,0,0.97) 350px,rgba(0,0,0,1) 100%);
-	background: -o-linear-gradient(top, rgba(0,0,0,.0) 0%,rgba(0,0,0,.0) 90px,rgba(0,0,0,0.05) 130px,rgba(0,0,0,0.3) 210px,rgba(0,0,0,0.4) 260px,rgba(0,0,0,0.96) 340px,rgba(0,0,0,0.97) 350px,rgba(0,0,0,1) 100%);
-	background: linear-gradient(top, rgba(0,0,0,.0) 0%,rgba(0,0,0,.0) 90px,rgba(0,0,0,0.05) 30px,rgba(0,0,0,0.3) 210px,rgba(0,0,0,0.4) 260px,rgba(0,0,0,0.96) 340px,rgba(0,0,0,0.97) 350px,rgba(0,0,0,1) 100%);
-	*/
-
-	z-index: 2;
+	z-index: 0;
 }
 
 .home {
@@ -436,13 +431,12 @@ a {
 }
 
 .home-bg {
-	padding: 10px 0 100px 0;
 	background-image: url(./img/home_bg.jpg);
-	background-size: cover;
+	background-size: 100%;
 	background-repeat: no-repeat;
-	background-position: top;
+	background-position: center bottom;
 	width: 100%;
-	z-index: -1;
+	z-index: -2;
 }
 
 .home-article {
@@ -469,7 +463,7 @@ a {
 }
 
 .read-more {
-	margin: 0px 0 24px 0;
+	margin: 0px 0 28px 0;
 }
 
 .read-more-link {
@@ -530,9 +524,12 @@ a {
 	height: 40px;
 	margin: 0 auto;
 	background-image: url(./img/sprite.png);
-	background-size: 100%;
+/*	background-size: 100%;
 	background-repeat: no-repeat;
-	background-position: center -135px;
+	background-position: center -135px;*/
+	background-size: 95%;
+	background-repeat: no-repeat;
+	background-position: center -124px;
 }
 
 .commercial-offer-link {
@@ -561,7 +558,7 @@ a {
     -o-transition-duration: 0.3s;
     -o-transition-timing-function: ease;
 
-    transition-property: color;
+    transition-property: colorservice-fire-alarm;
     transition-duration: 0.3s;
     transition-timing-function: ease;
 }
@@ -633,11 +630,11 @@ a {
 }
 
 .menu-service:nth-child(even) {
-	margin: 1.5% 1.5% 1.5% 0;
+	margin: 10px 10px 10px 0;
 }
 
 .menu-service:nth-child(odd) {
-	margin: 1.5% 0 1.5% 1.5%;
+	margin: 10px 0 10px 10px;
 }
 
 .icon-service-box {
@@ -653,7 +650,7 @@ a {
 	height: 40px;
 	margin: 0 auto;
 	background-image: url(./img/sprite_services_link.png);
-	background-size: 100%;
+	background-size: 95%;
 	background-repeat: no-repeat;
 }
 
@@ -670,35 +667,44 @@ a {
 
 
 .sequrity-object {
-	background-position: center 1px;
+	/*background-position: center 1px;*/
+	background-position: center 3px;
 }
 
 .protection-individuals {
-	background-position: center -78px;
+	/*background-position: center -78px;*/
+	background-position: center -75px;
 }
 
 .installation-video-surveillance-systems {
-	background-position: center -162px;
+	/*background-position: center -162px;*/
+	background-position: center -154px;
 }
 
 .video-surveillance-systems {
-	background-position: center -240px;
+	/*background-position: center -240px;*/
+	background-position: center -228px;
 }
 
 .fire-alarm {
-	background-position: center -313px;
+	/*background-position: center -313px;*/
+	background-position: center -295px;
 }
 
 .support-cargoes {
-	background-position: center -390px;
+	/*background-position: center -390px;*/
+	background-position: center -368px;
 }
 
 .button-disturbing-alarm-system {
-	background-position: center -469px;
+	/*background-position: center -469px;*/
+	background-position: center -444px;
 }
 
 .pultowa-protection {
-	background-position: center -541px;
+	/*background-position: center -541px;*/
+	background-position: center -512px;
+
 }
 
 

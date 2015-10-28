@@ -1,21 +1,7 @@
 $(document).ready(function() {
 
-	getHeadBg();
+
 	responsiveService(bodyWidth);
-
-	$(document).scroll(function() {
-		getHeadBg();
-	});
-
-
-	function getHeadBg() {
-
-		if($(".header-site").offset().top >= $(".header-site").height()) {
-
-			$(".header-site").css({"background":"rgba(0, 0, 0, .8)"});
-
-		}
-	}
 
 });
 
@@ -54,6 +40,7 @@ var w = window,
 
 getResponsiveNav(bodyWidth);
 responsiveService(bodyWidth);
+
 $(window).resize(function() {
 
 	bodyWidth = w.innerWidth || e.clientWidth || g.clientWidth;
@@ -102,7 +89,8 @@ function responsiveService(bodyWidth) {
 
 		$(".wrapper").addClass("servisec-gradient-with-photo");
 
-	} else if ( ($(".content div").hasClass("service-page") && $(".service-photos-box img").length == 0) || bodyWidth < 768) {
+	} else if ( ( $(".content div").hasClass("service-page") && $(".service-photos-box img").length == 0 ) || 
+		     	( $(".content div").hasClass("service-page") && bodyWidth < 768 ) ) {
 
 		$(".wrapper").addClass("servisec-gradient-without-photo-ormobile");
 
