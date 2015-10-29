@@ -670,7 +670,8 @@ a {
 	background-image: url(img_menu_icons/sequrity-object.png);
 }
 
-.menu-service:hover .sequrity-object {
+.menu-service:hover .sequrity-object,
+.menu-service-services-page:hover .sequrity-object {
 	/*background-position: center 3px;*/
 	background-image: url(img_menu_icons/sequrity-object_hover.png);
 }
@@ -680,7 +681,8 @@ a {
 	background-image: url(img_menu_icons/protection-individuals.png);
 }
 
-.menu-service:hover .protection-individuals {
+.menu-service:hover .protection-individuals,
+.menu-service-services-page:hover .protection-individuals {
 	/*background-position: center -75px;*/
 	background-image: url(img_menu_icons/protection-individuals_hover.png);
 }
@@ -690,7 +692,8 @@ a {
 	background-image: url(img_menu_icons/installation-video-surveillance-systems.png);
 }
 
-.menu-service:hover .installation-video-surveillance-systems {
+.menu-service:hover .installation-video-surveillance-systems,
+.menu-service-services-page:hover .installation-video-surveillance-systems {
 	/*background-position: center -154px;*/
 	background-image: url(img_menu_icons/installation-video-surveillance-systems_hover.png);
 }
@@ -700,7 +703,8 @@ a {
 	background-image: url(img_menu_icons/video-surveillance-systems.png);
 }
 
-.menu-service:hover .video-surveillance-systems {
+.menu-service:hover .video-surveillance-systems,
+.menu-service-services-page:hover .video-surveillance-systems {
 	/*background-position: center -228px;*/
 	background-image: url(img_menu_icons/video-surveillance-systems_hover.png);
 }
@@ -710,7 +714,8 @@ a {
 	background-image: url(img_menu_icons/fire-alarm.png);
 }
 
-.menu-service:hover .fire-alarm {
+.menu-service:hover .fire-alarm,
+.menu-service-services-page:hover .fire-alarm {
 	/*background-position: center -295px;*/
 	background-image: url(img_menu_icons/fire-alarm_hover.png);
 }
@@ -720,7 +725,8 @@ a {
 	background-image: url(img_menu_icons/support-cargoes.png);
 }
 
-.menu-service:hover .support-cargoes {
+.menu-service:hover .support-cargoes,
+.menu-service-services-page:hover .support-cargoes {
 	/*background-position: center -368px;*/
 	background-image: url(img_menu_icons/support-cargoes_hover.png);
 }
@@ -730,7 +736,8 @@ a {
 	background-image: url(img_menu_icons/button-disturbing-alarm-system.png);
 }
 
-.menu-service:hover .button-disturbing-alarm-system {
+.menu-service:hover .button-disturbing-alarm-system,
+.menu-service-services-page:hover .button-disturbing-alarm-system {
 	/*background-position: center -444px;*/
 	background-image: url(img_menu_icons/button-disturbing-alarm-system_hover.png);
 }
@@ -740,7 +747,8 @@ a {
 	background-image: url(img_menu_icons/pultowa-protection.png);
 }
 
-.menu-service:hover .pultowa-protection {
+.menu-service:hover .pultowa-protection,
+.menu-service-services-page:hover .pultowa-protection {
 	/*background-position: center -512px;*/
 	background-image: url(img_menu_icons/pultowa-protection_hover.png);
 }
@@ -1023,7 +1031,7 @@ a {
 	background: #9c1006;
 }
 
-.menu-service-services-page:link .services-menu-icon,
+/*.menu-service-services-page:link .services-menu-icon,
 .menu-service-services-page:visited .services-menu-icon {
 	background-image: url(./img/sprite_services_link.png);
 }
@@ -1031,7 +1039,7 @@ a {
 .menu-service-services-page:hover .services-menu-icon,
 .menu-service-services-page:active .services-menu-icon {
 	background-image: url(./img/sprite_services_link_hover.png);
-}
+}*/
 
 .menu-service-services-page:link .service-name,
 .menu-service-services-page:visited .service-name {
