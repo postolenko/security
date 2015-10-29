@@ -647,12 +647,13 @@ a {
 	width: 40px;
 	height: 40px;
 	margin: 0 auto;
-	background-image: url(./img/sprite_services_link.png);
-	background-size: 95%;
+	/*background-image: url(./img/sprite_services_link.png);*/
+	background-position: center;
+	background-size: 100%;
 	background-repeat: no-repeat;
 }
 
-.menu-service:link .services-menu-icon,
+/*.menu-service:link .services-menu-icon,
 .menu-service:visited .services-menu-icon {
 	background-image: url(./img/sprite_services_link.png);
 }
@@ -660,42 +661,89 @@ a {
 .menu-service:hover .services-menu-icon,
 .menu-service:active .services-menu-icon {
 	background-image: url(./img/sprite_services_link_hover.png);
-}
+}*/
 
 
 
 .sequrity-object {
-	background-position: center 3px;
+	/*background-position: center 3px;*/
+	background-image: url(img_menu_icons/sequrity-object.png);
+}
+
+.menu-service:hover .sequrity-object {
+	/*background-position: center 3px;*/
+	background-image: url(img_menu_icons/sequrity-object_hover.png);
 }
 
 .protection-individuals {
-	background-position: center -75px;
+	/*background-position: center -75px;*/
+	background-image: url(img_menu_icons/protection-individuals.png);
+}
+
+.menu-service:hover .protection-individuals {
+	/*background-position: center -75px;*/
+	background-image: url(img_menu_icons/protection-individuals_hover.png);
 }
 
 .installation-video-surveillance-systems {
-	background-position: center -154px;
+	/*background-position: center -154px;*/
+	background-image: url(img_menu_icons/installation-video-surveillance-systems.png);
+}
+
+.menu-service:hover .installation-video-surveillance-systems {
+	/*background-position: center -154px;*/
+	background-image: url(img_menu_icons/installation-video-surveillance-systems_hover.png);
 }
 
 .video-surveillance-systems {
-	background-position: center -228px;
+	/*background-position: center -228px;*/
+	background-image: url(img_menu_icons/video-surveillance-systems.png);
+}
+
+.menu-service:hover .video-surveillance-systems {
+	/*background-position: center -228px;*/
+	background-image: url(img_menu_icons/video-surveillance-systems_hover.png);
 }
 
 .fire-alarm {
-	background-position: center -295px;
+	/*background-position: center -295px;*/
+	background-image: url(img_menu_icons/fire-alarm.png);
+}
+
+.menu-service:hover .fire-alarm {
+	/*background-position: center -295px;*/
+	background-image: url(img_menu_icons/fire-alarm_hover.png);
 }
 
 .support-cargoes {
-	background-position: center -368px;
+	/*background-position: center -368px;*/
+	background-image: url(img_menu_icons/support-cargoes.png);
+}
+
+.menu-service:hover .support-cargoes {
+	/*background-position: center -368px;*/
+	background-image: url(img_menu_icons/support-cargoes_hover.png);
 }
 
 .button-disturbing-alarm-system {
-	background-position: center -444px;
+	/*background-position: center -444px;*/
+	background-image: url(img_menu_icons/button-disturbing-alarm-system.png);
+}
+
+.menu-service:hover .button-disturbing-alarm-system {
+	/*background-position: center -444px;*/
+	background-image: url(img_menu_icons/button-disturbing-alarm-system_hover.png);
 }
 
 .pultowa-protection {
-	background-position: center -512px;
+	/*background-position: center -512px;*/
+	background-image: url(img_menu_icons/pultowa-protection.png);
 }
 
+.menu-service:hover .pultowa-protection {
+	/*background-position: center -512px;*/
+	background-image: url(img_menu_icons/pultowa-protection_hover.png);
+}
 
 .service-name {
 	display: inline-block;
@@ -804,28 +852,6 @@ a {
 	text-align: center;
 	padding: 390px 0 100px 0;
 }
-
-/*.security-head {
-	font-family: 'SourceSansPro-Black', sans-serif;
-	font-size: 44px;
-	line-height: 46px;
-	font-weight: normal;
-	text-transform: uppercase;
-	color: #ffffff;
-	position: relative;
-	z-index: 2;
-}
-
-.company-description {
-	font-size: 24px;
-	line-height: 26px;
-	color: #b4b4b4;
-	font-weight: normal;
-	position: relative;
-	z-index: 2;
-}
-*/
-
 
 .about-company-description {
 	display: inline-block;
